@@ -10,9 +10,7 @@ import {reducer} from './reducer';
 const store = createStore(
 	reducer,
 	compose(
-		applyMiddleware(
-      thunkMiddleware
-		),
+		applyMiddleware(thunkMiddleware),
 		window.devToolsExtension ? window.devToolsExtension() : f => f
 	),
 );
