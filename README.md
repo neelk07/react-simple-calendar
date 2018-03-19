@@ -1,6 +1,7 @@
 # Coding Challenge
 Candidate: **Neel Kothari (neelk07@gmail.com)**
 
+## Demo
 ![Demo](http://g.recordit.co/QQjwMVK7MD.gif)
 
 ## Running Code
