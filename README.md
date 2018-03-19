@@ -1,4 +1,4 @@
-# ReviewTrackers Coding Challenge
+# Coding Challenge
 Candidate: **Neel Kothari (neelk07@gmail.com)**
 
 ![Demo](http://g.recordit.co/QQjwMVK7MD.gif)
