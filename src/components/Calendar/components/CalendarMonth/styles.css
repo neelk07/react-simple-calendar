@@ -1,0 +1,12 @@
+.CalendarMonth {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CalendarMonth-create-appointment-form h4 {
+  text-align: center;
+}
+
+.CalendarMonth-create-appointment-form button {
+  margin-right: 8px;
+}

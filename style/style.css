@@ -1,0 +1,9 @@
+button.button-primary {
+  background-color: #0089E1 !important;
+  border-color: #0089E1 !important;
+}
+
+button.delete {
+  background-color: #EF3737 !important;
+  border-color: #EF3737 !important;
+}

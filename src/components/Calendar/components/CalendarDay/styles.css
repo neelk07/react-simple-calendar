@@ -1,0 +1,55 @@
+.CalendarDay {
+  margin: 2px 2px;
+  width: calc(96%/7);
+  height: 128px;
+  background: #F8F8F7;
+  text-align: right;
+}
+
+.CalendarDay:hover {
+  background: #E5E5E5;
+}
+
+.CalendarDay.past {
+  opacity: 0.5;
+}
+
+.CalendarDay.past:hover {
+  background: #F8F8F7;
+}
+
+.CalendarDay.today {
+  border: 2px solid #0089E1;
+}
+
+.CalendarDay-date {
+  font-size: 12px;
+  margin: 8px 8px 0px;
+  letter-spacing: 0.75px;
+  text-align: right;
+}
+
+.CalendarDay-add-appointment {
+  font-size: 24px;
+  margin: 8px;
+}
+
+.CalendarDay-add-appointment:hover {
+  cursor: pointer;
+}
+
+.CalendarDay-appointment-description {
+  max-height: 64px;
+  font-size: 12px;
+  margin: 4px;
+  background: yellow;
+  color: black;
+  border-radius: 2px;
+  padding: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.CalendarDay-appointment-description:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.CalendarHeader {
+  text-align: center;
+}
+
+.CalendarHeader-header {
+  display: flex;
+  justify-content: center;
+}
+
+.CalendarHeader-header button {
+  padding: 0 8px;
+  font-size: 8px;
+  margin: 0px 16px;
+}
+
+.CalendarHeader-weekdays {
+  display: flex;
+  justify-content: center;
+}
+
+.CalendarHeader-weekday {
+  width: calc(100%/7);
+  text-align: center;
+  letter-spacing: 1px;
+}
